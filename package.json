@@ -2,6 +2,7 @@
   "name": "cell-simulator",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hutch120.github.io/cell-simulator",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

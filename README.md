@@ -19,9 +19,11 @@ https://hutch120.github.io/cell-simulator/
 - Hooks
 - Styling with styled-components
 
-# Deploy
 
-Uses gh-pages to deploy, see package.json for details.
+# Deploy with gh-pages
 
-References:
-- https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+- yarn add gh-pages --dev
+- Set homepage in package.json
+- Add this to package scripts: `"deploy": "yarn build && gh-pages -b gh-deploy -d build"`
+- Run `yarn deploy`
+- Got to github settings -> pages and set the pages to gh-pages branch
