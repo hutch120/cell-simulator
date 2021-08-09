@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/static/js/main.bb3f1695.chunk.js",
-    "main.js.map": "/static/js/main.bb3f1695.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4a5d1bcc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4a5d1bcc.js.map",
-    "static/js/2.28b06150.chunk.js": "/static/js/2.28b06150.chunk.js",
-    "static/js/2.28b06150.chunk.js.map": "/static/js/2.28b06150.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.28b06150.chunk.js.LICENSE.txt": "/static/js/2.28b06150.chunk.js.LICENSE.txt"
+    "main.css": "/cell-simulator/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/cell-simulator/static/js/main.bb3f1695.chunk.js",
+    "main.js.map": "/cell-simulator/static/js/main.bb3f1695.chunk.js.map",
+    "runtime-main.js": "/cell-simulator/static/js/runtime-main.538195d3.js",
+    "runtime-main.js.map": "/cell-simulator/static/js/runtime-main.538195d3.js.map",
+    "static/js/2.f2a6c286.chunk.js": "/cell-simulator/static/js/2.f2a6c286.chunk.js",
+    "static/js/2.f2a6c286.chunk.js.map": "/cell-simulator/static/js/2.f2a6c286.chunk.js.map",
+    "index.html": "/cell-simulator/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/cell-simulator/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.f2a6c286.chunk.js.LICENSE.txt": "/cell-simulator/static/js/2.f2a6c286.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a5d1bcc.js",
-    "static/js/2.28b06150.chunk.js",
+    "static/js/runtime-main.538195d3.js",
+    "static/js/2.f2a6c286.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.bb3f1695.chunk.js"
   ]
