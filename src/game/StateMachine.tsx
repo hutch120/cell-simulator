@@ -144,7 +144,7 @@ function handleRandom (setCells: React.Dispatch<React.SetStateAction<CellProps[]
   makeCells(setCells)
 }
 
-function handleTest1 (setCells: React.Dispatch<React.SetStateAction<CellProps[]>>) {
+function handleTestGlider (setCells: React.Dispatch<React.SetStateAction<CellProps[]>>) {
   board = makeEmptyBoard()
   board[10][11] = true
   board[10][12] = true
@@ -154,13 +154,16 @@ function handleTest1 (setCells: React.Dispatch<React.SetStateAction<CellProps[]>
   makeCells(setCells)
 }
 
-function handleTest2 (setCells: React.Dispatch<React.SetStateAction<CellProps[]>>) {
+function handleTestToad (setCells: React.Dispatch<React.SetStateAction<CellProps[]>>) {
   board = makeEmptyBoard()
+  board[10][10] = true
   board[10][11] = true
   board[10][12] = true
-  board[10][13] = true
-  board[9][13] = true
-  board[8][12] = true
+
+  board[11][9] = true
+  board[11][10] = true
+  board[11][11] = true
+
   makeCells(setCells)
 }
 
@@ -175,6 +178,6 @@ export default {
   handleRandom,
   handleClear,
   runIteration,
-  handleTest1,
-  handleTest2
+  handleTestGlider,
+  handleTestToad
 }

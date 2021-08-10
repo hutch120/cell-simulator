@@ -10,6 +10,7 @@ export const Outer = styled.div`
 
 export const Inner = styled.div`
     max-width: 1000px;
+    min-width: 500px;
     flex-shrink: 0;
     margin: 20px;
     border: 4px solid transparent;

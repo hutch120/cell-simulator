@@ -13,13 +13,9 @@ export interface BoardProps {
 }
 
 export default function Board ({ rows, cols, boardRef, cells, setCells } : BoardProps) {
-  const boardWrapperSize = {
-    height: rows * CELL_SIZE,
-    width: cols * CELL_SIZE
-  }
-
   const boardSize = {
-    ...boardWrapperSize,
+    height: rows * CELL_SIZE,
+    width: cols * CELL_SIZE,
     backgroundSize: `${CELL_SIZE}px ${CELL_SIZE}px`
   }
 

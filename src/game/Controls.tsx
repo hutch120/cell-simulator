@@ -26,11 +26,13 @@ export default function Controls ({ interval, setInterval, rows, setRows, cols, 
             StateMachine.handleIntervalChange(event, setInterval)} />
             msec
         </InputWrapper>
+
         <InputWrapper>
           Rows
           <Input value={rows} onChange={(event: React.FormEvent<HTMLInputElement>) =>
             StateMachine.handleRowsChange(event, setRows)} />
         </InputWrapper>
+
         <InputWrapper>
           Columns
           <Input value={cols} onChange={(event: React.FormEvent<HTMLInputElement>) =>
@@ -39,26 +41,35 @@ export default function Controls ({ interval, setInterval, rows, setRows, cols, 
 
         <Button onClick={() => {
           setIsRunning(false)
-          StateMachine.runIteration(setCells)
-        }}>Iterate</Button>
-        {isRunning && <Button onClick={() => setIsRunning(false)}>Stop</Button>}
-        {!isRunning && <Button onClick={() => setIsRunning(true)}>Run</Button>}
+          StateMachine.handleRandom(setCells)
+        }}>Generate</Button>
+
         <Button onClick={() => {
           setIsRunning(false)
-          StateMachine.handleRandom(setCells)
-        }}>Random</Button>
+          StateMachine.runIteration(setCells)
+        }}>Iterate</Button>
+
+        {isRunning && <Button onClick={() => setIsRunning(false)}>Stop</Button>}
+
+        {!isRunning && <Button onClick={() => setIsRunning(true)}>Run</Button>}
+
         <Button onClick={() => {
           setIsRunning(false)
           StateMachine.handleClear(setCells)
         }}>Clear</Button>
+
         <Button onClick={() => {
           setIsRunning(false)
-          StateMachine.handleTest1(setCells)
-        }}>Test1</Button>
+          StateMachine.handleTestGlider(setCells)
+          setIsRunning(true)
+        }}>Test Glider</Button>
+
         <Button onClick={() => {
           setIsRunning(false)
-          StateMachine.handleTest2(setCells)
-        }}>Test2</Button>
+          StateMachine.handleTestToad(setCells)
+          setIsRunning(true)
+        }}>Test Toad</Button>
+
         </Content>
         </Inner>
       </Outer>
