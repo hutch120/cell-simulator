@@ -26,4 +26,4 @@ https://hutch120.github.io/cell-simulator/
 - Set homepage in package.json
 - Add this to package scripts: `"deploy": "yarn build && gh-pages -b gh-deploy -d build"`
 - Run `yarn deploy`
-- Got to github settings -> pages and set the pages to gh-pages branch
+- Go to github settings -> pages and set the pages to gh-pages branch
