@@ -1,6 +1,11 @@
 import styled from 'styled-components'
 
-export const Board = styled.div`
+export const Outer = styled.div`
+
+`
+
+export const Grid = styled.div`
+    cursor: pointer;
     position: relative;
     margin: 0 auto;
     background-color: #000;
