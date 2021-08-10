@@ -3,7 +3,7 @@ import { CellProps } from '../components/Cell'
 import StateMachine from './StateMachine'
 import Controls, { ControlsProps } from './Controls'
 import Board, { BoardProps } from './Board'
-import { Page, Title, Instructions } from '../components/styled/Game'
+import { Page, Title, Instructions, Link } from '../components/styled/Game'
 
 interface GameProps {
   rowsInitial: number,
@@ -35,5 +35,6 @@ export default function Game ({ rowsInitial, colsInitial } : GameProps) {
       <Instructions>Then click Run or Iterate button to see the iterations.</Instructions>
       <Controls {...controlsArgs} />
       <Board {...boardArgs} />
+      <Instructions><Link href="https://github.com/hutch120/cell-simulator">View Source on Github</Link></Instructions>
     </Page>
 }

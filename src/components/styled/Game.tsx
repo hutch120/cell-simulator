@@ -21,3 +21,7 @@ export const Instructions = styled.div`
     font-size: 16px;
     padding-top: 10px;
 `
+
+export const Link = styled.a`
+    color: white;
+`

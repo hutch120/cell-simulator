@@ -1,6 +1,6 @@
 import React from 'react'
 import { CELL_SIZE } from '../game/Constants'
-import { Box } from './styled/Box'
+import { Box } from './styled/Cells'
 
 export interface CellProps {
   x: number,
