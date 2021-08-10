@@ -10,7 +10,7 @@ https://hutch120.github.io/cell-simulator/
 - Run `yarn`
 - Run  `yarn start`
 - A webpage will show in the browser. 
-- Click the board squares to setup the initial state, or use `Random` button to randomize the board.
+- Click the board squares to setup the initial state, or use `Generate` button to randomize the board.
 - Then click `Run` button to see the iterations.
 
 

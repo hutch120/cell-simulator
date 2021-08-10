@@ -31,7 +31,7 @@ export default function Game ({ rowsInitial, colsInitial } : GameProps) {
 
   return <Page>
       <Title>Cell Simulator</Title>
-      <Instructions>Click the board squares to setup the initial state, or use Random button to randomize the board.</Instructions>
+      <Instructions>Click the board squares to setup the initial state, or use Generate button to randomize the board.</Instructions>
       <Instructions>Then click Run or Iterate button to see the iterations.</Instructions>
       <Controls {...controlsArgs} />
       <Board {...boardArgs} />
