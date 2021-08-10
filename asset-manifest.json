@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cell-simulator/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/cell-simulator/static/js/main.19c547c1.chunk.js",
-    "main.js.map": "/cell-simulator/static/js/main.19c547c1.chunk.js.map",
+    "main.js": "/cell-simulator/static/js/main.ef7e3609.chunk.js",
+    "main.js.map": "/cell-simulator/static/js/main.ef7e3609.chunk.js.map",
     "runtime-main.js": "/cell-simulator/static/js/runtime-main.538195d3.js",
     "runtime-main.js.map": "/cell-simulator/static/js/runtime-main.538195d3.js.map",
     "static/js/2.459191a4.chunk.js": "/cell-simulator/static/js/2.459191a4.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.538195d3.js",
     "static/js/2.459191a4.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.19c547c1.chunk.js"
+    "static/js/main.ef7e3609.chunk.js"
   ]
 }
